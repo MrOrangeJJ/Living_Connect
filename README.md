@@ -12,6 +12,7 @@ django-machina
 
 Then run: python3 manage.py runserver
 Currently available rest api:
+//
 
 //Only emails that have been added by an administrator can be registered.
 
@@ -32,6 +33,7 @@ Body:{
   
 }
 
+//
 
 Post: http://127.0.0.1:8000/api/auth/login/
 
@@ -50,6 +52,7 @@ Body:{
 
 
 //Get is use to get forum info, post is use to edit info
+//
 
 Post/Get: http://127.0.0.1:8000/api/forum/[forums, topics, posts, attchs]/
 
