@@ -1,4 +1,5 @@
 To start the server:
+
 Make sure you pip3 install below
 Django 
 djangorestframework 
@@ -11,6 +12,7 @@ django-machina
 (let me know if I missed any)
 
 Then run: python3 manage.py runserver
+
 Currently available rest api:
 //
 
