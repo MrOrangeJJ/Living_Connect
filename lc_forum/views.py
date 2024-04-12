@@ -50,7 +50,6 @@ class PostViewSet(viewsets.ModelViewSet):
     permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
-        return Post.objects.all()
         accessible_Topics = Topic.objects.filter(
             forum_id__in=ForumAccess.objects.filter(
                 user=self.request.user, can_access=True
